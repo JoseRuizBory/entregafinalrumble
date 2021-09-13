@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3{
+	font-family: $fontPrim;
+	color: black;
+}
+
+p{
+	font-family: $fontSec;
+	color: black;
+	font-style: italic;
+}
+
+// Home
+
+.bg-home{
+	background-image: url(../images/rumble10.jpg);
+	backround-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-art{
+	background-color: rgba(110, 73, 63, 0.85);
+}
+
+// Galeria
+
+#galeria{
+	background-color: $bg-ye;
+}
+
+#galeria img{
+	width: 90%;
+}
+
+#galeria img:hover{
+	transform: scale(1.1, 1.1);
+}
+
+
+// Servicios
+
+.tab-cont{
+	background-color: $bg-ye;
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.titulos-tab{
+	font-weight: bold;
+}
+
+table{
+	margin: auto;
+	font-size: $fonLarge	;
+	border: solid;
+	border-color: black;
+	border-radius: 5px;
+
+	td{
+		text-align: center;
+		padding: 1em;
+	}
+
+	ul{
+		padding: 1em;
+		margin: 1em;
+	}
+
+	li{
+		list-style-type: none;
+	}
+}
+
+// Contacto
+.pagCont{
+	background-color: $bg-br;
+}
+
+.form-cont{
+	border-radius: 10px;
+	background-color: $bg-pi;
+	font-family: $fontPrim;
+}
+
+input{
+	background-color: white;
+	width: 90%;
+	height: 30px;
+	border-radius: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: $bg-br;
+	margin-top: 5px;
+	padding-left: 10px;
+	margin-bottom: 15px;
+}
+
+
+textarea{
+	background-color: white; 
+	width: 90%; 
+	height: 80px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: $bg-br; 
+	margin-top: 10px;  
+	padding-left: 10px;
+	margin-bottom: 20px; 
+	padding-top: 15px;
+}
+
+label{
+	display: block;
+}
+
+.butForm{
+  height: 35px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: $bg-br; 
+  border-color: $bg-br; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 30%;
+  cursor: pointer;
+}
+
+.avisoForm{
+  font-size: 0.8rem;  
+}
+
+.contForm{
+	background-color: $bg-pi;
+	border-radius: 10px;
+	height: 80vh;
+}
+
+// Nosotros
+
+.bgNos{
+	background-color: rgba(73, 62, 31, 0.9);
+	font-size: $fontMed;
+}
+
+
+
+   
+
+
+
+
+
