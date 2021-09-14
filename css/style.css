@@ -120,8 +120,10 @@ label {
   height: 80vh; }
 
 .bgNos {
-  background-color: rgba(73, 62, 31, 0.9);
-  font-size: 1em; }
+  background-color: rgba(73, 62, 31, 0.7);
+  font-size: 1em;
+  height: 10vh;
+  color: white; }
 
 footer {
   background-color: #39606E; }
