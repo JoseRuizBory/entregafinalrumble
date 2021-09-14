@@ -154,7 +154,9 @@ label {
   background-color: rgba(73, 62, 31, 0.7);
   font-size: 1em;
   height: 10vh;
-  color: white; }
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 footer {
   background-color: #39606E; }
