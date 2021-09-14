@@ -50,7 +50,7 @@ p{
 // Servicios
 
 .bg-ser{
-	font-size: 1em;
+	font-size: 0.6em;
 	background-color: $bg-ye;
 	height: 20px;
 }
@@ -167,27 +167,19 @@ label{
 // Nosotros
 
 .bg-nos{
-	font-size: 1em;
-	background-color: white;
-	height: 20px;
+	background-color: $bg-ye;
 }
 
-.bgNos{
-	background-color: rgba(73, 62, 31, 0.7);
-	font-size: $fontMed;
-	height: 10vh;
-	color: white;
-	background-size: cover;
-	background-repeat: no-repeat;
+.textNos{
+	background-color: $bg-ye;
+	height: 100%;
+	min-height: 60vh;
 
 }
 
 // Error 404
 
-// #tam-im img{
-// 	height: 10vh;
-// }
-   
+
 
 
 
