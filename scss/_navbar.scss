@@ -6,4 +6,18 @@ nav{
 	img{
 		width: 3em;
 	}
+
+	ul li a{
+		color:white;
+		text-decoration: none;
+		background: linear-gradient(currentColor, currentColor);
+   		background-position: 0% 100%;
+    	background-repeat: no-repeat;
+    	background-size: 0% 2px;
+    	transition: background-size .5s;		
+	}
+
+	a:hover, a:focus {
+    		background-size: 100% 2px;
+			}
 }

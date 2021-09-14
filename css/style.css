@@ -7,6 +7,16 @@ nav {
   font-size: 1.2em; }
   nav img {
     width: 3em; }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .5s; }
+  nav a:hover, nav a:focus {
+    background-size: 100% 2px; }
 
 * {
   margin: 0;
@@ -49,6 +59,7 @@ p {
 table {
   margin: auto;
   font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
   border: solid;
   border-color: black;
   border-radius: 5px; }
