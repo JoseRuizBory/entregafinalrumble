@@ -28,6 +28,12 @@ p{
 
 // Galeria
 
+.bg-gal{
+	font-size: 1em;
+	background-color: $bg-ye;
+	height: 20px;
+}
+
 #galeria{
 	background-color: $bg-ye;
 }
@@ -42,6 +48,12 @@ p{
 
 
 // Servicios
+
+.bg-ser{
+	font-size: 1em;
+	background-color: $bg-ye;
+	height: 20px;
+}
 
 .tab-cont{
 	background-color: $bg-ye;
@@ -77,6 +89,13 @@ table{
 }
 
 // Contacto
+
+.bg-cont{
+	font-size: 1em;
+	background-color: $bg-br;
+	height: 20px;
+}
+
 .pagCont{
 	background-color: $bg-br;
 }
@@ -146,6 +165,12 @@ label{
 
 
 // Nosotros
+
+.bg-nos{
+	font-size: 1em;
+	background-color: white;
+	height: 20px;
+}
 
 .bgNos{
 	background-color: rgba(73, 62, 31, 0.7);

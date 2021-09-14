@@ -39,6 +39,11 @@ p {
 .bg-art {
   background-color: rgba(110, 73, 63, 0.85); }
 
+.bg-gal {
+  font-size: 1em;
+  background-color: #BA9E4E;
+  height: 20px; }
+
 #galeria {
   background-color: #BA9E4E; }
 
@@ -47,6 +52,11 @@ p {
 
 #galeria img:hover {
   transform: scale(1.1, 1.1); }
+
+.bg-ser {
+  font-size: 1em;
+  background-color: #BA9E4E;
+  height: 20px; }
 
 .tab-cont {
   background-color: #BA9E4E;
@@ -71,6 +81,11 @@ table {
     margin: 1em; }
   table li {
     list-style-type: none; }
+
+.bg-cont {
+  font-size: 1em;
+  background-color: #6E493F;
+  height: 20px; }
 
 .pagCont {
   background-color: #6E493F; }
@@ -129,6 +144,11 @@ label {
   background-color: #BA8373;
   border-radius: 10px;
   height: 80vh; }
+
+.bg-nos {
+  font-size: 1em;
+  background-color: white;
+  height: 20px; }
 
 .bgNos {
   background-color: rgba(73, 62, 31, 0.7);
